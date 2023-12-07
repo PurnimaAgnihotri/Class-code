@@ -1,5 +1,7 @@
 #include<stdio.h>
-int main(){
+int main() {
+  
+
     int a,b;
     printf(" enter two number:\n");
     scanf("%d %d", &a,&b);
@@ -8,8 +10,6 @@ int main(){
           printf("\n multiply=%d", a*b);
           printf("\n divide=%d", a/b);
           printf("\n rimender=%d", a%b);
+          printf("done\n");
           return 0;
 }
-        
-        
-        
