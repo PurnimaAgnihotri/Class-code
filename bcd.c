@@ -1,12 +1,12 @@
 #include<stdio.h>
 int main() {
-    int x,y,z;
-    printf("x is divided by y\n");
-    printf(" enter values of x and y\n");
-    scanf("%d%d",&x,&y);
-    z=x%y;
+    int a,b,c;
+    printf("a is divided by b\n");
+    printf(" enter values of a and b\n");
+    scanf("%d%d",&a,&b);
+    c=a%b;
 
-    switch(z)
+    switch(c)
     {
         case 0:
         printf("number id divisible\n");
